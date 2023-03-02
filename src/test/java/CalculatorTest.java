@@ -48,7 +48,7 @@ class CalculatorDivisionTests1 {
 class CalculatorAdditionTests1 {
     @Test
     @DisplayName("1 + 1 = 2")
-    void addsTwoNumbers(){
+    void addsTwoNumbers1(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.addition(1,1), "1 + 1 should equal 2");
     }
@@ -58,7 +58,7 @@ class CalculatorAdditionTests1 {
             "1,2,3",
             "21,22,50"
     })
-    void add(int a, int b, int res){
+    void add1(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " + " + b + " should equal " + res);
     }
@@ -66,7 +66,7 @@ class CalculatorAdditionTests1 {
 class CalculatorDivisionTests2 {
     @Test
     @DisplayName("1 / 1 = 1")
-    void divisionTwoNumbers(){
+    void divisionTwoNumbers2(){
         Calculator calculator = new Calculator();
         assertEquals(1, calculator.division(1,1), "1 / 1 should equal 2");
     }
@@ -76,7 +76,7 @@ class CalculatorDivisionTests2 {
             "1,0,0",
             "4,2,2"
     })
-    void division(int a, int b, int res){
+    void division2(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.division(a, b),() -> a + " / " + b + " should equal " + res);
     }
@@ -84,7 +84,7 @@ class CalculatorDivisionTests2 {
 class CalculatorAdditionTests2 {
     @Test
     @DisplayName("1 + 1 = 2")
-    void addsTwoNumbers(){
+    void addsTwoNumbers2(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.addition(1,1), "1 + 1 should equal 2");
     }
@@ -94,7 +94,7 @@ class CalculatorAdditionTests2 {
             "1,2,3",
             "21,22,50"
     })
-    void add(int a, int b, int res){
+    void add2(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " + " + b + " should equal " + res);
     }
@@ -102,7 +102,7 @@ class CalculatorAdditionTests2 {
 class CalculatorDivisionTests3 {
     @Test
     @DisplayName("1 / 1 = 1")
-    void divisionTwoNumbers(){
+    void divisionTwoNumbers3(){
         Calculator calculator = new Calculator();
         assertEquals(1, calculator.division(1,1), "1 / 1 should equal 2");
     }
@@ -112,7 +112,7 @@ class CalculatorDivisionTests3 {
             "1,0,0",
             "4,2,2"
     })
-    void division(int a, int b, int res){
+    void division3(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.division(a, b),() -> a + " / " + b + " should equal " + res);
     }
@@ -120,7 +120,7 @@ class CalculatorDivisionTests3 {
 class CalculatorAdditionTests3 {
     @Test
     @DisplayName("1 + 1 = 2")
-    void addsTwoNumbers(){
+    void addsTwoNumbers3(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.addition(1,1), "1 + 1 should equal 2");
     }
@@ -130,7 +130,7 @@ class CalculatorAdditionTests3 {
             "1,2,3",
             "21,22,50"
     })
-    void add(int a, int b, int res){
+    void add3(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " + " + b + " should equal " + res);
     }
@@ -138,7 +138,7 @@ class CalculatorAdditionTests3 {
 class CalculatorDivisionTests4 {
     @Test
     @DisplayName("1 / 1 = 1")
-    void divisionTwoNumbers(){
+    void divisionTwoNumbers4(){
         Calculator calculator = new Calculator();
         assertEquals(1, calculator.division(1,1), "1 / 1 should equal 2");
     }
@@ -148,7 +148,7 @@ class CalculatorDivisionTests4 {
             "1,0,0",
             "4,2,2"
     })
-    void division(int a, int b, int res){
+    void division4(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.division(a, b),() -> a + " / " + b + " should equal " + res);
     }
@@ -156,7 +156,7 @@ class CalculatorDivisionTests4 {
 class CalculatorAdditionTests4 {
     @Test
     @DisplayName("1 + 1 = 2")
-    void addsTwoNumbers(){
+    void addsTwoNumbers4(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.addition(1,1), "1 + 1 should equal 2");
     }
@@ -166,7 +166,7 @@ class CalculatorAdditionTests4 {
             "1,2,3",
             "21,22,50"
     })
-    void add(int a, int b, int res){
+    void add4(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " + " + b + " should equal " + res);
     }

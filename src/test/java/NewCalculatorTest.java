@@ -48,7 +48,7 @@ class CalculatorSubstractionTests {
 class CalculatorMultiplicationTests1 {
     @Test
     @DisplayName("1 * 1 = 2")
-    void multTwoNumbers(){
+    void multTwoNumbers1(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.multiplication(1,1), "1 * 1 should equal 2");
     }
@@ -58,7 +58,7 @@ class CalculatorMultiplicationTests1 {
             "2,2,4",
             "4,5,25"
     })
-    void multiplication(int a, int b, int res){
+    void multiplication1(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " * " + b + " should equal " + res);
     }
@@ -66,7 +66,7 @@ class CalculatorMultiplicationTests1 {
 class CalculatorSubstractionTests1 {
     @Test
     @DisplayName("1 - 1 = 0")
-    void subTwoNumbers(){
+    void subTwoNumbers1(){
         Calculator calculator = new Calculator();
         assertEquals(0, calculator.subtraction(1,1), "1 - 1 should equal 2");
     }
@@ -76,7 +76,7 @@ class CalculatorSubstractionTests1 {
             "1,0,1",
             "1,1,0"
     })
-    void substraction(int a, int b, int res){
+    void substraction1(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.subtraction(a, b),() -> a + " - " + b + " should equal " + res);
     }
@@ -84,7 +84,7 @@ class CalculatorSubstractionTests1 {
 class CalculatorMultiplicationTests2 {
     @Test
     @DisplayName("1 * 1 = 2")
-    void multTwoNumbers(){
+    void multTwoNumbers2(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.multiplication(1,1), "1 * 1 should equal 2");
     }
@@ -94,7 +94,7 @@ class CalculatorMultiplicationTests2 {
             "2,2,4",
             "4,5,25"
     })
-    void multiplication(int a, int b, int res){
+    void multiplication2(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " * " + b + " should equal " + res);
     }
@@ -102,7 +102,7 @@ class CalculatorMultiplicationTests2 {
 class CalculatorSubstractionTests2 {
     @Test
     @DisplayName("1 - 1 = 0")
-    void subTwoNumbers(){
+    void subTwoNumbers2(){
         Calculator calculator = new Calculator();
         assertEquals(0, calculator.subtraction(1,1), "1 - 1 should equal 2");
     }
@@ -112,7 +112,7 @@ class CalculatorSubstractionTests2 {
             "1,0,1",
             "1,1,0"
     })
-    void substraction(int a, int b, int res){
+    void substraction2(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.subtraction(a, b),() -> a + " - " + b + " should equal " + res);
     }
@@ -120,7 +120,7 @@ class CalculatorSubstractionTests2 {
 class CalculatorMultiplicationTests3 {
     @Test
     @DisplayName("1 * 1 = 2")
-    void multTwoNumbers(){
+    void multTwoNumbers3(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.multiplication(1,1), "1 * 1 should equal 2");
     }
@@ -130,7 +130,7 @@ class CalculatorMultiplicationTests3 {
             "2,2,4",
             "4,5,25"
     })
-    void multiplication(int a, int b, int res){
+    void multiplication3(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " * " + b + " should equal " + res);
     }
@@ -138,7 +138,7 @@ class CalculatorMultiplicationTests3 {
 class CalculatorSubstractionTests3 {
     @Test
     @DisplayName("1 - 1 = 0")
-    void subTwoNumbers(){
+    void subTwoNumbers3(){
         Calculator calculator = new Calculator();
         assertEquals(0, calculator.subtraction(1,1), "1 - 1 should equal 2");
     }
@@ -148,7 +148,7 @@ class CalculatorSubstractionTests3 {
             "1,0,1",
             "1,1,0"
     })
-    void substraction(int a, int b, int res){
+    void substraction3(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.subtraction(a, b),() -> a + " - " + b + " should equal " + res);
     }
@@ -156,7 +156,7 @@ class CalculatorSubstractionTests3 {
 class CalculatorMultiplicationTests4 {
     @Test
     @DisplayName("1 * 1 = 2")
-    void multTwoNumbers(){
+    void multTwoNumbers4(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.multiplication(1,1), "1 * 1 should equal 2");
     }
@@ -166,7 +166,7 @@ class CalculatorMultiplicationTests4 {
             "2,2,4",
             "4,5,25"
     })
-    void multiplication(int a, int b, int res){
+    void multiplication4(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " * " + b + " should equal " + res);
     }
@@ -174,7 +174,7 @@ class CalculatorMultiplicationTests4 {
 class CalculatorSubstractionTests4 {
     @Test
     @DisplayName("1 - 1 = 0")
-    void subTwoNumbers(){
+    void subTwoNumbers4(){
         Calculator calculator = new Calculator();
         assertEquals(0, calculator.subtraction(1,1), "1 - 1 should equal 2");
     }
@@ -184,7 +184,7 @@ class CalculatorSubstractionTests4 {
             "1,0,1",
             "1,1,0"
     })
-    void substraction(int a, int b, int res){
+    void substraction4(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.subtraction(a, b),() -> a + " - " + b + " should equal " + res);
     }
@@ -192,7 +192,7 @@ class CalculatorSubstractionTests4 {
 class CalculatorMultiplicationTests5 {
     @Test
     @DisplayName("1 * 1 = 2")
-    void multTwoNumbers(){
+    void multTwoNumbers5(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.multiplication(1,1), "1 * 1 should equal 2");
     }
@@ -202,7 +202,7 @@ class CalculatorMultiplicationTests5 {
             "2,2,4",
             "4,5,25"
     })
-    void multiplication(int a, int b, int res){
+    void multiplication5(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " * " + b + " should equal " + res);
     }
@@ -210,7 +210,7 @@ class CalculatorMultiplicationTests5 {
 class CalculatorSubstractionTests5 {
     @Test
     @DisplayName("1 - 1 = 0")
-    void subTwoNumbers(){
+    void subTwoNumbers5(){
         Calculator calculator = new Calculator();
         assertEquals(0, calculator.subtraction(1,1), "1 - 1 should equal 2");
     }
@@ -220,7 +220,7 @@ class CalculatorSubstractionTests5 {
             "1,0,1",
             "1,1,0"
     })
-    void substraction(int a, int b, int res){
+    void substraction5(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.subtraction(a, b),() -> a + " - " + b + " should equal " + res);
     }
@@ -228,7 +228,7 @@ class CalculatorSubstractionTests5 {
 class CalculatorMultiplicationTests6 {
     @Test
     @DisplayName("1 * 1 = 2")
-    void multTwoNumbers(){
+    void multTwoNumbers6(){
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.multiplication(1,1), "1 * 1 should equal 2");
     }
@@ -238,7 +238,7 @@ class CalculatorMultiplicationTests6 {
             "2,2,4",
             "4,5,25"
     })
-    void multiplication(int a, int b, int res){
+    void multiplication6(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.addition(a, b),() -> a + " * " + b + " should equal " + res);
     }
@@ -246,7 +246,7 @@ class CalculatorMultiplicationTests6 {
 class CalculatorSubstractionTests6 {
     @Test
     @DisplayName("1 - 1 = 0")
-    void subTwoNumbers(){
+    void subTwoNumbers6(){
         Calculator calculator = new Calculator();
         assertEquals(0, calculator.subtraction(1,1), "1 - 1 should equal 2");
     }
@@ -256,7 +256,7 @@ class CalculatorSubstractionTests6 {
             "1,0,1",
             "1,1,0"
     })
-    void substraction(int a, int b, int res){
+    void substraction6(int a, int b, int res){
         Calculator calculator = new Calculator();
         assertEquals(res, calculator.subtraction(a, b),() -> a + " - " + b + " should equal " + res);
     }
